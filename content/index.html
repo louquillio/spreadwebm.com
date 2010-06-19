@@ -1,19 +1,21 @@
 {% extends "skeleton/_body.html" %}
 {%hyde
-    title: "Hyde : Ready for customization"
-    created: 2009-02-01 18:09:05
-    listing: True
+    title: "Help Spread WebM Video"
+    created: 2010-06-19
 %}
 
 {% block content_body %}
-<h2>Recent Posts</h2>
+{% markdown extra %}
 
-{%recent_posts recents 5 %}
-<ul>
-{%for post in recents %}
-<li>
-<a href='{{post.url}}'>{{post.title}}</a>
-</li>
-{%endfor%}
-</ul>
-{%endblock%}
+<img src="/media/images/spreadwebm.png" alt="" />
+
+There could be a website here, maybe.
+
+<div class="subtitle" markdown="1">
+
+What's this about?  See [webmproject.org](http://www.webmproject.org/)
+
+</div>
+
+{% endmarkdown %}
+{% endblock %}

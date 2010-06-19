@@ -13,9 +13,9 @@ BACKUPS_DIR = os.path.join(ROOT_PATH, 'backups')
 BACKUP = False
 
 SITE_ROOT = "/"
-SITE_WWW_URL = "http://www.yoursite.com"
-SITE_NAME = "Your Site"
-SITE_AUTHOR = "Your Name"
+SITE_WWW_URL = "http://spreadwebm.com"
+SITE_NAME = "Spread WebM"
+SITE_AUTHOR = ""
 
 #Url Configuration
 GENERATE_ABSOLUTE_FS_URLS = False
@@ -29,7 +29,7 @@ GENERATE_ABSOLUTE_FS_URLS = False
 # to map the clean urls to the actual html files.  The HtaccessGenerator site
 # post processor is capable of automatically generating the necessary
 # RewriteRules for use with Apache.
-GENERATE_CLEAN_URLS = False
+GENERATE_CLEAN_URLS = True
 
 # A list of filenames (without extensions) that will be considered listing
 # pages for their enclosing folders.
@@ -112,14 +112,14 @@ GROWL = None
 # path for YUICompressor, or None if you don't
 # want to compress JS/CSS. Project homepage:
 # http://developer.yahoo.com/yui/compressor/
-YUI_COMPRESSOR = "./lib/yuicompressor-2.4.1.jar"
-#YUI_COMPRESSOR = None 
+#YUI_COMPRESSOR = "./lib/yuicompressor-2.4.1.jar"
+YUI_COMPRESSOR = None 
 
 # path for Closure Compiler, or None if you don't
 # want to compress JS/CSS. Project homepage:
 # http://closure-compiler.googlecode.com/
 #CLOSURE_COMPILER = "./lib/compiler.jar"
-CLOSURE_COMPRILER = None 
+CLOSURE_COMPILER = None 
 
 # path for HSS, which is a preprocessor for CSS-like files (*.hss)
 # project page at http://ncannasse.fr/projects/hss

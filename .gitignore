@@ -1,0 +1,7 @@
+deploy/
+deploy_tmp/
+media/video
+*.pyc
+.DS_Store
+site.log
+._*
