@@ -1,0 +1,16 @@
+This project contains a Hyde [1] installation used to generate a 
+possible website spreadwebm.com, which would promote use of the WebM 
+video format and the VP8 (vpx) video codec.
+
+The installation has any number of dependencies (beyond Hyde itself), 
+which will be documented here should the project proceed.
+
+  * hyde
+  * Django
+  * PyYAML
+  * python-markdown
+  * smartypants.py
+  * python-pygments
+  * fabric
+
+[1]: http://github.com/lakshmivyas/hyde
